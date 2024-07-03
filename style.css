@@ -81,7 +81,6 @@ header {
   justify-content: end;
   gap: var(--input-em);
   gap: 5%;
-  
 }
 
 #search {
@@ -138,8 +137,6 @@ header {
   display: flex;
   align-items: center;
   width: 35%;
-
-
 }
 .upload-container ul {
   display: flex;
@@ -196,16 +193,7 @@ header {
 
   gap: 5%;
 }
-@media only screen and (max-width: 1006px) {
-  .sidebar-nav ul li,
-  .logo {
-    flex-wrap: nowrap;
-    flex-direction: column;
 
-    justify-content: center;
-    align-items: center;
-  }
-}
 /* main  */
 main {
   font-size: var(--content-em);
@@ -217,20 +205,16 @@ main {
   grid-template-rows: repeat(auto-fit, minmax(150px, max-content));
   grid-gap: 1.5em;
 }
-main  p {
+main p {
   font-family: "roboto-para";
-  color:#727272
- 
-  
+  color: #727272;
 }
 
-.project-main{
-  display:flex;
+.project-main {
+  display: flex;
   flex-direction: column;
-  gap:1em;
+  gap: 1em;
   margin-bottom: 1em;
-  
-
 }
 
 .projects {
@@ -262,69 +246,62 @@ main  p {
 
   gap: 1em;
 }
-.side-main-content{
+.side-main-content {
   display: grid;
-  gap:1em;
-  
+  gap: 1em;
 }
-.announcements{
+.announcements {
   display: flex;
   flex-direction: column;
-  gap:1em;
+  gap: 1em;
   /* justify-content: end; */
   padding: 1.5em;
   border-radius: 10px;
   box-shadow: var(--item-shadow);
 }
-.trending{
+.trending {
   display: flex;
   flex-direction: column;
   /* justify-content: end; */
   padding: 1.5em;
   border-radius: 10px;
   box-shadow: var(--item-shadow);
-  gap:1em;
+  gap: 1em;
 }
-.trending img{
+.trending img {
   width: clamp(1rem, 2em, 4rem);
   height: clamp(1rem, 2em, 4rem);
   position: relative;
   top: -0.5em;
   justify-content: center;
- 
 }
-.side-item{
+.side-item {
   display: flex;
-  gap:1em;
-  
+  gap: 1em;
 }
-.side-item img{
+.side-item img {
   position: relative;
-  top: .2em;
+  top: 0.2em;
 }
 
 .persons-container a {
-text-decoration: none;
-color: black;
-font-family: "roboto-head";
+  text-decoration: none;
+  color: black;
+  font-family: "roboto-head";
 }
-.side-main-container{
-  display:flex;
+.side-main-container {
+  display: flex;
   flex-direction: column;
-  gap:1em;
+  gap: 1em;
 }
 /* media main query */
-@media only screen and (max-width:688px)
-{
-  main{
-    grid-template-columns: 1fr;
-  }
- 
-}
-@media only screen and (max-width: 475px)
-{
-  .projects{
+@media only screen and (max-width: 688px) {
+  main {
     grid-template-columns: 1fr;
   }
 }
-
+@media only screen and (max-width: 475px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
